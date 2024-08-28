@@ -27,11 +27,20 @@ function App() {
         </header>
 
         <div className="content">
-          <h1>All sneakers</h1>
+          <div className="search">
+            <h1>All sneakers</h1>
+            <div className="search-block">
+              <img src="src/assets/search.svg" alt="search" />
+              <input type="text" placeholder="Search..." />
+            </div>
+          </div>
 
           <div className="sneakers">
 
             <div className="card">
+              <div className="favorite">
+                <img width={20} height={20} src="src/assets/heart.png" alt="unliked heart" />
+              </div>
               <img width={133} height={112} src="src/assets/sneakers/1.png" alt="sneakers" />
               <h5>Снікерcи Puma Hypnotic LS 395295 13 Бежевий</h5>
               <div className="card-bottom">
@@ -46,6 +55,9 @@ function App() {
             </div>
             
             <div className="card">
+              <div className="favorite">
+                <img width={20} height={20} src="src/assets/heart.png" alt="unliked heart" />
+              </div>
               <img width={133} height={112} src="src/assets/sneakers/2.png" alt="sneakers" />
               <h5>Снікерcи Puma Palermo Lth 396464 01 Бежевий</h5>
               <div className="card-bottom">
@@ -58,7 +70,11 @@ function App() {
                 </button>
               </div>
             </div>
+
             <div className="card">
+              <div className="favorite">
+                <img width={20} height={20} src="src/assets/heart.png" alt="unliked heart" />
+              </div>
               <img width={133} height={112} src="src/assets/sneakers/3.png" alt="sneakers" />
               <h5>Снікерcи Puma Club 5V5 38940601 Білий</h5>
               <div className="card-bottom">
@@ -73,6 +89,9 @@ function App() {
             </div>
 
             <div className="card">
+              <div className="favorite">
+                <img width={20} height={20} src="src/assets/heart.png" alt="unliked heart" />
+              </div>
               <img width={133} height={112} src="src/assets/sneakers/4.png" alt="sneakers" />
               <h5>Снікерcи Puma Palermo 396463 18 Зелений</h5>
               <div className="card-bottom">
