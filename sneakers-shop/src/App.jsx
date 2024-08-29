@@ -4,6 +4,36 @@ function App() {
   return (
     <>
       <div className="wrapper">
+
+
+        <div className="overlay">
+
+          <div className="rigth-side">
+            <h2>Cart</h2>
+
+            <div className="cart-item">
+              <img className="cart-item-img" width={70} height={70} src="src/assets/sneakers/1.png" alt="cart sneakers" />
+              <div className="price-right-side">
+                <p>Снікерcи Puma Hypnotic LS 395295 13 Бежевий</p>
+                <b>12 USD</b>
+              </div>
+              <img className="remove-button" src="src/assets/cross.svg" alt="remove button" />
+            </div>
+
+            <div className="cart-item">
+              <img className="cart-item-img" width={70} height={70} src="src/assets/sneakers/2.png" alt="cart sneakers" />
+              <div className="price-right-side">
+                <p>Снікерcи Puma Palermo Lth 396464 01 Бежевий</p>
+                <b>12 USD</b>
+              </div>
+              <img className="remove-button" src="src/assets/cross.svg" alt="remove button" />
+            </div>
+
+          </div>
+
+        </div>
+
+
         <header>
           <div className="header-left">
             <img width={50} height={50} src="src/assets/logo.png" alt="logo" />
